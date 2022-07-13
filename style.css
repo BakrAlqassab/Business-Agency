@@ -294,6 +294,13 @@ html {
   font-size: 10rem;
   font-weight: 300;
   color: #ddd;
+  margin-right: 4rem ;
+}
+
+.section-heading-line {
+  width: 15rem;
+  height: 0.2rem;
+  background-color: #ddd;
 }
 .video-wrapper {
   width: 100rem;
