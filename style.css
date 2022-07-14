@@ -411,6 +411,7 @@ html {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
+  padding: 5rem;
 }
 
 .pricing-card {
@@ -502,6 +503,7 @@ html {
   border-radius: 3rem;
   border: none;
   font-size: 1.6rem;
+  text-transform: uppercase;
   color: #fff;
   text-shadow: 0.3rem 0.3rem 0.6rem rgba(0, 0, 0, 0.5);
 }
@@ -533,6 +535,7 @@ html {
   align-items: center;
   transform: rotateY(180deg);
   border-radius: 1rem;
+  -webkit-backface-visibility: hidden;
 }
 
 .back-free {
