@@ -818,7 +818,34 @@ html {
     justify-content: center;
   }
   .footer-nav {
-  margin-bottom: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 30%;
+  }
+
+  .banner-heading {
+    font-size: 4.5rem;
+    letter-spacing: 2rem;
+  }
+  .video-wrapper {
+    width: 60rem;
+  }
+
+  .section-2-paragraph {
+    width: 60rem;
+  }
+
+  .contact-details div {
+    width: 18rem;
+    margin: 3rem 1rem;
+  }
+
+  .contact-form {
+    width: 60rem;
   }
 }
 /* End of Responsive */
