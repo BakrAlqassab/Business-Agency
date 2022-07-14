@@ -13,6 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Bellota+Text:wght@300;400;700&family=Monoton&family=Oswald:wght@200;300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
   </head>
   <body>
     <!-- Navbar-->
@@ -89,9 +90,10 @@
       <section class="section-3">
         <h1 class="section-heading">Pricing</h1>
         <div class="section-heading-line"></div>
-        <div class="pricing-cards-wrapper">
+        <div class="swiper-container">
+        <div class="pricing-cards-wrapper swiper-wrapper">
           <!-- card start -->
-          <div class="pricing-card">
+          <div class="pricing-card swiper-slide">
             <div class="pricing-card-front">
               <h1 class="pricing-card-heading heading-free">FREE</h1>
               <h3 class="pricing-card-price">$0</h3>
@@ -112,7 +114,7 @@
                   <i class="fas fa-times"></i> <span>Pricing Card Item</span>
                 </li>
               </ul>
-              <button class="pricing-card-btn-free">Choose Plan</button>
+              <button class="pricing-card-btn btn-free">Choose Plan</button>
             </div>
             <div class="pricing-card-back back-free">
               <a href="#">Order Now</a>
@@ -121,7 +123,7 @@
           <!-- card end -->
 
           <!-- card 2 start -->
-          <div class="pricing-card">
+          <div class="pricing-card swiper-slide">
             <div class="pricing-card-front">
               <h1 class="pricing-card-heading heading-basic">Basic</h1>
               <h3 class="pricing-card-price">$299</h3>
@@ -142,7 +144,7 @@
                   <i class="fas fa-times"></i> <span>Pricing Card Item</span>
                 </li>
               </ul>
-              <button class="pricing-card-btn-basic">Choose Plan</button>
+              <button class="pricing-card-btn btn-basic">Choose Plan</button>
             </div>
             <div class="pricing-card-back back-basic">
               <a href="#">Order Now</a>
@@ -151,7 +153,7 @@
           <!-- card end -->
 
           <!-- card 3 start -->
-          <div class="pricing-card">
+          <div class="pricing-card swiper-slide">
             <div class="pricing-card-front">
               <h1 class="pricing-card-heading heading-standard">STANDARD</h1>
               <h3 class="pricing-card-price">$699</h3>
@@ -175,7 +177,7 @@
                   <i class="fas fa-check"></i> <span>Pricing Card Item</span>
                 </li>
               </ul>
-              <button class="pricing-card-btn-standard">Choose Plan</button>
+              <button class="pricing-card-btn btn-standard">Choose Plan</button>
             </div>
             <div class="pricing-card-back back-standard">
               <a href="#">Order Now</a>
@@ -184,7 +186,7 @@
           <!-- card end -->
 
           <!-- card 4 start -->
-          <div class="pricing-card">
+          <div class="pricing-card swiper-slide">
             <div class="pricing-card-front">
               <h1 class="pricing-card-heading heading-premium">PREMIUM</h1>
               <h3 class="pricing-card-price">$999</h3>
@@ -196,16 +198,16 @@
                   <i class="fas fa-check"></i> <span>Pricing Card Item</span>
                 </li>
                 <li>
-                  <i class="fas fa-cehck"></i> <span>Pricing Card Item</span>
+                  <i class="fas fa-check"></i> <span>Pricing Card Item</span>
                 </li>
                 <li>
-                  <i class="fas fa-cehck"></i> <span>Pricing Card Item</span>
+                  <i class="fas fa-check"></i> <span>Pricing Card Item</span>
                 </li>
                 <li>
-                  <i class="fas fa-cehck"></i> <span>Pricing Card Item</span>
+                  <i class="fas fa-check"></i> <span>Pricing Card Item</span>
                 </li>
               </ul>
-              <button class="pricing-card-btn-premium">Choose Plan</button>
+              <button class="pricing-card-btn btn-premium">Choose Plan</button>
             </div>
             <div class="pricing-card-back back-premium">
               <a href="#">Order Now</a>
@@ -216,6 +218,8 @@
       </section>
       <!-- End of section 3 -->
     </div>
+  </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
